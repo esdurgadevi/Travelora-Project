@@ -1,0 +1,76 @@
+.testh{
+    margin-top: 50px;
+    text-align: center;
+    color:rgb(241, 190, 122);
+    font-size:40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.testimonial{
+    margin-bottom: 80px;
+    margin-top: 50px;
+    padding:0 80px;
+    position: relative;
+    margin-left:130px;
+    margin-right: 130px;
+}
+.next-btn,.back-btn{
+    position: absolute;
+    top:50%;
+    right: 0px;
+    transform: translateY(-50%);
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 60px;
+    background-color:rgb(165, 193, 245);
+
+}
+.back-btn{
+    right: auto;
+    left:0;
+}
+.user img{
+    width:130px;
+    height: 130px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-right: 10px;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.slider ul li{
+    width: 25%;
+    padding:20px;
+}
+.slide{
+    padding:40px;
+    line-height: 1.4;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 33, 33, 0.05);
+    color: #676767;
+    background-color: rgb(245, 237, 227);
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    flex-direction: column;
+}
+.user h3
+{
+    color: black;
+}
+.user h3 span{
+    display: flex;
+}

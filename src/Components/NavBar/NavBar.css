@@ -1,0 +1,45 @@
+nav{
+    color:black;
+    background-color:wheat;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:10;
+    height:110px;
+}
+nav img{
+    width: 180px;
+    height: 180px;
+}
+nav h1{
+    font-family: "Londrina Outline", sans-serif;
+    color:black;
+    font-size: 70px;
+    font-weight:900;
+    font-style:normal;
+    position:absolute;
+    left:223px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin:5px 20px;
+    font-weight:500; 
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(165, 193, 245);
+    color: #212121;
+    border-radius: 30px;
+    cursor: pointer;
+    padding:14px 25px;
+    border-style: none;
+    font-weight: 500;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}

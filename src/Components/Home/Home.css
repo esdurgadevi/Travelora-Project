@@ -1,0 +1,34 @@
+.Home{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../../assets/travel3.webp');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home-text{
+    text-align: center;
+    max-width: 800px;
+    padding:10px;
+    padding-left: 3%;
+}
+.Home-text h1{
+    font-size: 60px;
+    font-weight: 590;
+}
+.Home-text p{
+    max-width:700px;
+    line-height: 1.5;
+    margin:10px;
+    padding:5px;
+    font-size: 18px;
+
+}
+.arrow{
+    width: 20px;
+    height: 20px;
+}
+

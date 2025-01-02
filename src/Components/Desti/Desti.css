@@ -1,0 +1,66 @@
+.Destis{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:90px auto;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    width: 90%;
+}
+.Desti{
+    flex-basis: 31%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.Desti img{
+    width: 380px;
+    height: 500px;
+    border-radius: 10px;
+    display: block;
+}
+.caption{
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+    color:burlywood;
+    opacity: 0;
+    transition: 0.4s;
+    padding-top: 70%;
+}
+.caption h3{
+    font-size: 20px;
+    font-weight:200px;
+}
+.caption p{
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 1;
+    padding:25px;
+}
+.Desti:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
+.caption button{
+    position: absolute;
+    top:300px;
+    left:150px;
+} 
+.Title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(241, 190, 122);
+    font-size:18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
